@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Programming life</title>
+</head>
+<body>  
+<!-----Navigation----->
+	<section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html"><img src="photo/logo.png"></a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+
+<!-----Book section----->
+
+
+    <div class="video">
+    <h2 class="title">Programming Videos</h2>
+<div class="videocont">
+        <video id="Video" >
+          <source src="video/pyt.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+          <button onclick="playVid()" type="button">Play Video</button>
+          <button onclick="pauseVid()" type="button">Pause Video</button><br> 
+          <script> 
+          var vid = document.getElementById("Video"); 
+          
+          function playVid() { 
+            vid.play(); 
+          } 
+          
+          function pauseVid() { 
+            vid.pause(); 
+          } 
+          </script> 
+
+
+        </video>
+  
+        
+        <p>Video courtesy of newboston.</p>
+
+    </div>
+     </div>
+</body>
+</html>
